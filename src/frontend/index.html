@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>[MEI-CM] Cloud Computing - Student Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <!-- As a heading -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 my-auto">
+                    <a href="https://www.ipleiria.pt/estg/" target="_blank"><img class="img-fluid" src="assets/estg.png"
+                            alt="Escola Superior de Tecnologia e Gestão">
+                    </a>
+                </div>
+                <div class="col-7 my-auto ms-auto">
+                    <span class="navbar-brand h1"><strong>Cloud Computing</strong></span>
+                </div>
+                <div class="col-2 my-auto">
+                    <div class="h5">Project 1 <strong>2021/22</strong></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-3">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <a href="https://www.pngfind.com/" target="_blank">
+                        <img class="img-fluid" src="https://www.pngfind.com/pngs/b/610-6104451_placeholder-png.png"
+                            alt="Student Photo">
+                    </a>
+                </div>
+
+                <div class="col-10 my-auto">
+                    <h2>Student Name</h2>
+                    <h3>Student Number</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact_form">
+                    <h3>Contact Form</h3>
+                    <form id="contact-form" method="post" action="#" class="needs-validation">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input id="name" class="form-control" type="text" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" class="form-control" type="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" class="form-control"
+                                required></textarea>
+                        </div>
+                        <div class="form-group my-3 text-center">
+                            <button type="submit" class="btn btn-success">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Message sent</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <span>The message was <strong>sent</strong>!</span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.0/axios.min.js"
+        integrity="sha512-bPh3uwgU5qEMipS/VOmRqynnMXGGSRv+72H/N260MQeXZIK4PG48401Bsby9Nq5P5fz7hy5UGNmC/W1Z51h2GQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

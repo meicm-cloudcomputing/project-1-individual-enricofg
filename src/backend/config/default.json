@@ -1,0 +1,9 @@
+{
+    "settings":{
+        "name":"MEI-CM 1st Project Backend API",
+        "version":"1.0.0",
+        "port": 8081,
+        "hostname":"localhost",
+        "email":"joaoramosipl@gmail.com"
+    }
+}
