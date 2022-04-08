@@ -25,7 +25,7 @@ try {
 
     app.post('/message', (request, response, next) => {
         const data = request.body
-        const key = process.env.SENDGRID_API_KEY
+        const key = process.env.SENDGRID_API_KEY //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
         sgMail.setApiKey(key)
         const msg = {
             to: [settings.email],

@@ -8,9 +8,9 @@
  const https = require('https')
 
 // #### CHANGE-ME #####
-const SENDGRID_API_KEY = ""
-const MY_NAME = ""
-const MY_EMAIL = ""
+const SENDGRID_API_KEY = "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"
+const MY_NAME = "Enrico"
+const MY_EMAIL = "2212731@my.ipleiria.pt"
 // #### CHANGE-ME #####
  
  exports.app = (req, res) => {

@@ -1,0 +1,16 @@
+version: '3'
+services:
+  nginx:
+    image: frontend
+    ports:
+      - 80:80
+    build: 
+      context: ../src/frontend
+      dockerfile: ../../deployment/frontend/Dockerfile
+  node:
+    image: backend
+    ports:
+      - 8081:8081
+    build: 
+      context: ../src/backend
+      dockerfile: ../../deployment/backend/Dockerfile
